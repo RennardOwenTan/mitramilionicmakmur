@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PT Mitra Milionic Makmur</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Tentang kami</h1>
+        </div>
+
+    </section>
+
+    <!-- Main about us section -->
+
+    <section class="aboutPage">
+        <h1>Tentang kami</h1>
+        <div class="row">
+            <div class="aboutPage-col">
+                <p>
+                    PT Mitra Milionic Makmur, yang sebelumnya dikenal dengan nama "TB Cahaya Milionic," adalah sebuah perusahaan yang didirikan pada tahun 2010 oleh Bapak Manday Megatan bersama dengan bantuan dari sahabat-sahabatnya. Berawal dari sebuah toko kecil di Karawang, perusahaan ini tumbuh menjadi sebuah usaha besar yang sukses dan kini memiliki cabang di berbagai daerah, termasuk di Sintang, Kalimantan Barat.
+                    Perjalanan PT Mitra Milionic Makmur tidaklah mudah. Bapak Manday Megatan memulai usahanya dengan tekad kuat untuk membawa perubahan positif bagi komunitas sekitarnya. Dalam perjalanannya, ia selalu menjunjung tinggi nilai-nilai kepercayaan, persahabatan, dan integritas. Dengan dukungan dan bantuan dari sahabat-sahabatnya, Bapak Manday mampu mengatasi berbagai tantangan yang datang, baik dari segi bisnis maupun pribadi.
+                    <br>
+                    <br>
+                    Nilai-nilai persahabatan yang kuat menjadi fondasi utama dalam membangun perusahaan ini. Setiap langkah yang diambil oleh PT Mitra Milionic Makmur selalu didasari oleh kepercayaan dan kesetiaan, baik kepada rekan-rekan bisnis, karyawan, maupun pelanggan. Keberhasilan perusahaan ini dalam membuka cabang di Sintang, Kalimantan Barat, adalah bukti nyata dari kerja keras dan komitmen untuk selalu memberikan yang terbaik.
+                    Sebagai perusahaan yang berkomitmen pada kualitas, PT Mitra Milionic Makmur selalu memastikan bahwa produk yang ditawarkan adalah produk terbaik yang bisa didapatkan oleh pelanggan. Tidak hanya itu, pelayanan yang ramah dan profesional menjadi ciri khas dari setiap cabang yang dibuka. Pelanggan selalu menjadi prioritas utama, dan kepuasan mereka adalah motivasi terbesar bagi perusahaan ini untuk terus tumbuh dan berinovasi.
+                    Misi perusahaan ini adalah untuk terus berinovasi, memberikan pelayanan terbaik, dan menjaga kepercayaan yang telah diberikan oleh pelanggan dan mitra bisnis. Dengan menjunjung tinggi nilai-nilai integritas dan kepuasan pelanggan, PT Mitra Milionic Makmur akan terus berkembang dan memberikan dampak positif bagi komunitas yang dilayani.
+                </p>
+            </div>
+
+            <div class="aboutPage-col">
+                <img src="images/gambarAbout.png">
+            </div>
+
+    </section>
+     <!-- "Footer" section -->
+     <section class="footer">
+            <h4>Nomor HP/WhatsApp: +813-1980-7138 atau +62 858-8173-8238</h4>
+            <h4>Kunjungi juga sosial media kami</h4>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+     </section>
+
+    <!-- Java script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
